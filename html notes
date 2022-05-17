@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Admin Dashboard</title>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <div class="search">
+            <div class="search-left">
+                <img class-= "search-btn" src="./assets/magnify.png" alt="magnifying glass">
+                <div class="search-bar">
+                    <input type="text">
+                </div>
+            </div>
+            <div class="search-right">
+                <img src="./assets/alpha-c-box.png" alt="alert bell icon" class="alert">
+                <img src="./assets/alpha-c-box.png" alt="" class="profile-pic">
+                <div class="name">Morgan Oakley</div>
+            </div>
+        </div>
+        <div class="user-info">
+            <div class="info-left">
+                <img src="./assets/alpha-c-box (2).png" alt="bigger profile picture" class="profpicbig">
+                <p class="greeting"><span class="small-text">Hi there, </span> <br> Morgan Oakley(@morgan)</p>
+            </div>
+            <div class="info-right">
+                <button class="new-btn">New</button>
+                <button class="upload-btn">Upload</button>
+                <button class="share-btn">Share</button>
+            </div>
+        </div>
+
+    </div>
+   
+    <div class="sidebar">
+        <div class="sidebar-branding">
+            <span><img src="./assets/dashboard.png" alt="dashboard icon" class="dash-icon"></span>
+            <h1>Dashboard</h1>
+        </div>
+        
+        <div class="sidebar-nav">
+                
+                <ul class="top-nav">
+                    <li>
+                        <img src="./assets/alpha-c-box.png" alt="" class="nav-icon">
+                        <a href="#">Home</a>
+                    </li>
+
+                    <li>
+                        <img src="./assets/alpha-c-box.png" alt="" class="nav-icon">
+                        <a href="#">Profile</a>
+                    </li>
+                    <li>
+                        <img src="./assets/alpha-c-box.png" alt="" class="nav-icon">
+                        <a href="#">Messages</a>
+                    </li>
+                    <li>
+                        <img src="./assets/alpha-c-box.png" alt="" class="nav-icon">
+                        <a href="#">History</a>
+                    </li>
+                    <li>
+                        <img src="./assets/alpha-c-box.png" alt="" class="nav-icon">
+                        <a href="#">Tasks</a>
+                    </li>
+
+                    <li>
+                        <img src="./assets/alpha-c-box.png" alt="" class="nav-icon">
+                        <a href="#">Communities</a>
+                    </li>
+
+
+                </ul>
+
+                <ul class="bottom-nav">
+                    <li>
+                        <img src="./assets/alpha-c-box.png" alt="" class="nav-icon">
+                        <a href="#">Settings</a>
+                    </li>
+
+                    <li>
+                        <img src="./assets/alpha-c-box.png" alt="" class="nav-icon">
+                        <a href="#">Support</a>
+                    </li>
+                    <li>
+                        <img src="./assets/alpha-c-box.png" alt="" class="nav-icon">
+                        <a href="#">Privacy</a>
+                    </li>
+
+
+
+
+
+
+
+                </ul>
+
+
+
+
+        </div>
+
+    
+
+</div>
+
+<div class="main-content">
+    
+    <div class="project-section">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <div class="card">
+                    <p class="title">Super Cool Project</p>
+                    <p class="description">Sed tempus ut lacus ut scelerisque
+                        Suspendisse sollicitudin nibh erat, id
+                        facilisis felis accumsan nec.</p>
+                </div> 
+            </div>
+        
+        <div class="project">
+            <div class="card">
+                <p class="title">Less Cool Project</p>
+                <p class="description">Nullam condimentum ipsum ut lectus vehicula
+                    consectetur. Quisque sed dolor tincidunt,
+                    consectetur sapien et, facilisis dolor. Duis sem
+                    purus, dignissim ut sapien in, varius
+                    pellentesque lacus.</p>
+            </div>
+          
+        </div>
+        <div class="project">
+            <div class="card">
+                <p class="title">Impossible App</p>
+                <p class="description">In hac habitasse platea dictumst. Vivamus
+                    dictum rutrum arcu, a placerat velit sagittis
+                    id.</p>
+            </div>
+          
+        </div>
+        <div class="project">
+            <div class="card"> <p class="title">Easy Peasy App</p>
+                <p class="description">Etiam cursus eros ac efficitur fringilla.
+                    Vestibulum dignissim urn eget accumsan
+                    aliquam. Curabitur dignissim nisi in tortor
+                    commodo, ac bibendum magna tincidunt.</p>
+            </div>
+           
+        </div>
+        <div class="project">
+            <div class="card">
+                <p class="title">Ad Blocker</p>
+                <p class="description">Quisque eget rutrum nisl. Nam auque
+                    justo, cursus vitae metus vel, pharetra
+                    hendrerit felis. Aliquam sed malesuada
+                    eros.</p>
+            </div>
+            
+        </div>
+        <div class="project">
+            <div class="card">
+                <p class="title">Money Maker</p>
+                <p class="description">Present convallis, libero quis conque
+                    elementum, nunc ante faucibus sapien, ac
+                    scelerisque tortor purus sit amet ex.
+                    Pellentesque mollis nec sem vel aliquam</p>
+            </div>
+          
+        </div>
+    </div>
+    </div>
+    
+   
+    <div class="announcement-section">
+        <h2 class="section-title">Announcements</h2>
+           <div class="announcements">
+        
+               <div class="announcment">
+                   <p class="title">Site Maintenance</p>
+                   <p>Vestibulum condimentum tells lacus,
+                       in accumsan elit maximus ac. Donec
+                       hendrerit sodales conque...</p>
+               </div>
+               <div class="announcment">
+                   <p class="title">Community Share Day</p>
+                   <p>Nam vel lectus tincidunt, rutrum nulla
+                       eu, ornare libero. Aliquam dictum
+                       accumsan porttitor...</p>
+               </div>
+               <div class="announcment">
+                   <p class="title">Updated Privacy Policy</p>
+                   <p>Phasellus efficitur nisi eget elit
+                       consectetur, eget condimentum ante
+                       auctor. Cras fringilla sagittis sem in
+                       mattis…</p>
+               </div>
+           </div>
+
+           <div class="trending-section">
+            <h2 class="section-title">Trending</h2>
+            <div class="trending-users">
+                
+                <div class="trending-user">
+                    <img class="profile-pic" src="./assets/tegan.jpeg" alt="tegan pfp">
+                    <div class="user-details">
+                        <p class="username">@tegan</p>
+                        <p class="user-project">World Peace Builder</p>
+                    </div>
+                </div>
+                <div class="trending-user">
+                    <img class="profile-pic" src="./assets/morgan.png" alt="morgan pfp">
+                    <div class="user-details">
+                        <p class="username">@morgan</p>
+                        <p class="user-project">Super Cool Project</p>
+                    </div>
+                </div>
+                <div class="trending-user">
+                    <img class="profile-pic" src="./assets/kendall.png" alt="kendall pfp">
+                    <div class="user-details">
+                        <p class="username">@kendall</p>
+                        <p class="user-project">Life Changing App</p>
+                    </div>
+                </div>
+                <div class="trending-user">
+                    <img class="profile-pic" src="./assets/alex.jpeg" alt="alex pfp">
+                    <div class="user-details">
+                        <p class="username">@alex</p>
+                        <p class="user-project">No Traffic Maker</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+    
+
+</div>
+    
+</body>
+</html>
